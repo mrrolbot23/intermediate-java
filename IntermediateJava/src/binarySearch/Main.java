@@ -5,6 +5,7 @@ public class Main {
 
         int mid = start + (end - start) /2;
 
+
         if (start > end) {
             return -1;
         }
@@ -24,7 +25,7 @@ public class Main {
     public static void main(String[] args) {
         int[] array = {1,2,3,4,5,6,7};
 
-        int x = 4;
+        int x = 3;
 
         System.out.println(binarySearch(array, x, 0, array.length - 1));
     }

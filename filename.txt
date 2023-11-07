@@ -1,0 +1,1 @@
+Truck{make='RAM', vin='12342456', price=50000}, towingCapacity=10000}Truck{make='Chevy', vin='123444456', price=70000}, towingCapacity=10000}Truck{make='Ford', vin='123456', price=60000}, towingCapacity=10000}

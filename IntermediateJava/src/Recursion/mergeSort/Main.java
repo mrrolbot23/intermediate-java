@@ -13,24 +13,6 @@ public class Main {
         }
     }
 
-    public static void merge2(int[] arr, int start, int mid, int end) {
-        int n1 = mid - start + 1;
-        int n2 = start - mid;
-
-        int[] arr1 = new int[n1];
-        int[] arr2 = new int[n2];
-
-        for (int i = 0; i < n1; i++) {
-            arr1[i] = arr[start+i];
-        }
-
-        for (int i = 0; i < n2; i++) {
-            arr2[i] = arr[mid+1+i];
-        }
-
-        int i = 0, j = 0, k = start;
-    }
-
     public static void merge(int[] data, int start, int mid, int end) {
 //        build a temp array to avoid modifying the original content
         int[] temp = new int[end-start +1];
